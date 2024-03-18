@@ -1,0 +1,104 @@
+body {
+  margin: 0; /* Reset the margin */
+  padding: 0; /* Reset the padding */
+}
+
+nav{
+  background-color: plum;
+  color: white; /* Text color */
+  text-align: center; 
+  font-family: 'Poppins';
+  height: 60px;
+  padding: 22px 32px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.todoform{
+  background-color: white;
+  border-radius: 6px;
+  padding: 20px;
+  width: 500px;
+  margin: 0px auto;
+  margin-top: 150px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.inputfield{
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  border: none;
+  font-size: 16px;
+}
+.inputfield:focus{
+  outline: none;
+}
+
+button{
+  display: inline-block;
+  border-radius: 4px;
+  border:none;
+  background-color: plum;
+  padding:12px 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.inputcontainer{
+  display: flex;
+}
+
+.list{
+  background-color: white;
+  border-radius: 8px;
+  box-shadow:0 4px 6px rgba(0,0,0,0.1);
+  width: 500px;
+  margin:0 auto;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.listitem{
+  width:500px;
+  margin: 0 auto;
+  font-size: 10px;
+}
+
+.itemname{
+  font-size: 20px;
+  padding: 10px;
+  font-family: 'Poppins';
+}
+
+.listline{
+  border: 1px solid #f4f4f4;
+}
+
+.deletebutton{
+  float: right;
+  padding : 10px 18px;
+}
+
+.completed{
+  text-decoration: line-through;
+}
+
+.footer {
+  bottom: 0;
+  background-color: plum;
+  font-weight: bold;
+  width: 100%;
+  font-size: 18px;
+  color: white;
+  font-family: 'Poppins';
+  position: fixed;
+  text-align: center;
+  padding: 15px;
+}
+
+.footer > p {
+  display: inline;
+  margin: 0 30px; /* Adjust the margin value to add space between the <p> elements */
+}
+
