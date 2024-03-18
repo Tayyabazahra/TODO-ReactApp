@@ -1,6 +1,8 @@
 body {
   margin: 0; /* Reset the margin */
   padding: 0; /* Reset the padding */
+  margin-bottom: 100px;
+
 }
 
 nav{
